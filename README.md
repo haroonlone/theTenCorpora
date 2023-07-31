@@ -17,7 +17,7 @@ The JQuran API uses the Qur`ānic text from Tanzil Project in the XML file forma
 
 Additionally, there was a requirement to allocate special symbols related to the Ten Qira`at Corpus development with scenarios like words having Taqlīl and Tashīl. 
 
-So, there was a need to update the API to handle these enhancements and enrich it for the special symbols that would be used in the Qira`āt difference presentation. To achieve this, there was a need to introduce new characters in the existing list of Buckwalter Transliteration. Thus, we listed all symbols, small and capital letters, and their status of being used or free in the Buckwalter Transliteration. Then, all Arabic Unicode letters were listed, and the relevant ones were chosen for consideration. (Unicode, 2021) Finally, specific Buckwalter ASCII characters were assigned for the new Unicode handling, and JQuran Java API will be updated accordingly. The newly included symbols are listed in Table below. 
+So, there was a need to update the API to handle these enhancements and enrich it for the special symbols that would be used in the Qira`āt difference presentation. To achieve this, there was a need to introduce new characters in the existing list of Buckwalter Transliteration. Thus, we listed all symbols, small and capital letters, and their status of being used or free in the Buckwalter Transliteration. Then, all Arabic Unicode letters were listed, and the relevant ones were chosen for consideration. Finally, specific Buckwalter ASCII characters were assigned for the new Unicode handling, and JQuran Java API was updated accordingly. The newly included symbols are listed in the Table below. 
 
   **Table Buckwalter Enhancements Characters**
 
@@ -45,10 +45,10 @@ The JQuran API consisted of 13 packages, and the below three packages were updat
 
 **The Ten Corpora Application**
 
-After developing the enhanced version of JQuran Java API, extensive conversions to Buckwalter Transliteration and vice versa were required. To ease up the work, an application was essential to be developed. Thus, an application was designed and developed for this working in Java and having the following main features to ease up the process of the Corpus Development for a particular Riwāyah.  
+After developing the enhanced version of JQuran Java API, extensive conversions to Buckwalter Transliteration and vice versa were required. To ease up the work, an application was essential to be developed. Thus, an application was designed and developed for this work and has the following main features to ease up the process of the Corpus Development for a particular Riwāyah.  
 
-•	Qur`ānic Arabic text could be converted to Buckwalter Transliteration.
+•	Qur`ānic Arabic text converted to Buckwalter Transliteration.
 
-•	Buckwalter Transliteration could be converted back to the Qur`ānic Arabic text.
+•	Buckwalter Transliteration converted to the Qur`ānic Arabic text.
 
-•	After the relevant conversion, the system needs to copy the result to the Clipboard automatically to be pasted where ever required. 
+•	After the relevant conversion, the system automatically copies the result to the Clipboard, which can be pasted wherever required. 
