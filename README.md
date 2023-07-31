@@ -44,6 +44,7 @@ The JQuran API consisted of 13 packages, and the below three packages were updat
   **Class 5 (UnicodeType):** The updated Java code of the class is updated @ main/java/org/jqurantree/arabic/encoding/unicode/ UnicodeType.java
 
 **The Ten Corpora Application**
+
 After developing the enhanced version of JQuran Java API, extensive conversions to Buckwalter Transliteration and vice versa were required. To ease up the work, an application was essential to be developed. Thus, an application was designed and developed for this working in Java and having the following main features to ease up the process of the Corpus Development for a particular Riwāyah.  
 
 •	Qur`ānic Arabic text could be converted to Buckwalter Transliteration.
