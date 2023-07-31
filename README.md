@@ -29,19 +29,19 @@ The JQuran API consisted of 13 packages, and the below three packages were updat
 
 **Package org.jqurantree.arabic:** This package includes seven classes, and we would append the characters and diacritics in relevant classes for this enhancement. 
 
-  **Class 1 (CharacterType):** The updated Java code of the class is updated @ main/java/org/jqurantree/arabic/CharacterType.java 
+  Class 1 (CharacterType): The updated Java code of the class is updated @ main/java/org/jqurantree/arabic/CharacterType.java 
 
-  **Class 2 (DiacriticType):** The updated Java code of the class is updated @ main/java/org/jqurantree/arabic/ DiacriticType.java  
+  Class 2 (DiacriticType): The updated Java code of the class is updated @ main/java/org/jqurantree/arabic/ DiacriticType.java  
 
 **Package org.jqurantree.arabic.encoding.Buckwalter:** This package includes three classes, and we would require updating one of them only related to the assigned characters for the transliteration.
 
-  **Class 3 (BuckwalterTable):** The updated Java code of the class is updated @ main/java/org/jqurantree/arabic/encoding/buckwalter/BuckwalterTable.java
+  Class 3 (BuckwalterTable): The updated Java code of the class is updated @ main/java/org/jqurantree/arabic/encoding/buckwalter/BuckwalterTable.java
 
 **Package org.jqurantree.arabic.encoding.unicode:** This package includes four classes, and we would update two related to the Unicode characters table and their type.
 
-  **Class 4 (UnicodeTable):** The updated Java code of the class is updated @ main/java/org/jqurantree/arabic/encoding/unicode/UnicodeTable.java
+  Class 4 (UnicodeTable): The updated Java code of the class is updated @ main/java/org/jqurantree/arabic/encoding/unicode/UnicodeTable.java
 
-  **Class 5 (UnicodeType):** The updated Java code of the class is updated @ main/java/org/jqurantree/arabic/encoding/unicode/ UnicodeType.java
+  Class 5 (UnicodeType): The updated Java code of the class is updated @ main/java/org/jqurantree/arabic/encoding/unicode/ UnicodeType.java
 
 **The Ten Corpora Application**
 
@@ -52,3 +52,6 @@ After developing the enhanced version of JQuran Java API, extensive conversions 
 •	Buckwalter Transliteration converted to the Qur`ānic Arabic text.
 
 •	After the relevant conversion, the system automatically copies the result to the Clipboard, which can be pasted wherever required. 
+
+<img width="1134" alt="Screenshot 2023-07-31 at 10 22 56 AM" src="https://github.com/haroonlone/theTenCorpora/assets/47498442/ba1d154f-23bc-4c90-9ab3-3ebe2ea5dec2">
+
