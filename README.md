@@ -2,7 +2,8 @@
 An application for converting the Ten Qira`at Arabic Text to Buckwalter Transliteration.
 
 **JQuran Java API Limitations**
-The Qur’anic text used by JQuran from the XML file of the Tanzil Project 1.1 got released on February 12, 2021, with corrections and enhancements. There were orthographic marks that JQuran API did not handle for this latest release. Consequently, the available JQuran API could not handle the Arabic Text conversion to Buckwalter transliteration for the below scenarios.
+
+The JQuran API uses the Qur`ānic text from Tanzil Project in the XML file format. The version of the XML file version used in it is 1.0.1, that got released on February 4, 2008. However, the version released on February 12, 2021, is 1.1, with several corrections and enhancements. Consequently, the available JQuran API could not handle the Arabic Text conversion to Buckwalter transliteration for the below scenarios. 
 
 •	Pause marks (ۖ ۗ ۘ ۙ ۚ ۛ)
 
