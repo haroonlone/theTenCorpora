@@ -19,10 +19,10 @@ Additionally, there was a requirement to allocate special symbols related to the
 
 So, there was a need to update the API to handle these enhancements and enrich it for the special symbols that would be used in the Qira`āt difference presentation. To achieve this, there was a need to introduce new characters in the existing list of Buckwalter Transliteration. Thus, we listed all symbols, small and capital letters, and their status of being used or free in the Buckwalter Transliteration. Then, all Arabic Unicode letters were listed, and the relevant ones were chosen for consideration. Finally, specific Buckwalter ASCII characters were assigned for the new Unicode handling, and JQuran Java API was updated accordingly. The newly included symbols are listed in the Table below. 
 
-  **Table Buckwalter Enhancements Characters**
-<p>
-<img width="468" alt="image" src="https://github.com/haroonlone/theTenCorpora/assets/47498442/c428dcf5-1f57-4d29-a826-f8d486f7b2fb">
-</p>
+**Table Buckwalter Enhancements Characters**
+
+<img width="389" alt="image" src="https://github.com/haroonlone/theTenCorpora/assets/47498442/7c7d7b22-6545-4a30-bc33-2128fda359b7">
+
 **JQuran Java API Enhancements**
 
 The JQuran API consisted of 13 packages, and the below three packages were updated for the enhancement.
@@ -53,5 +53,6 @@ After developing the enhanced version of JQuran Java API, extensive conversions 
 
 •	After the relevant conversion, the system automatically copies the result to the Clipboard, which can be pasted wherever required. 
 
-<img width="1134" alt="Screenshot 2023-07-31 at 10 22 56 AM" src="https://github.com/haroonlone/theTenCorpora/assets/47498442/ba1d154f-23bc-4c90-9ab3-3ebe2ea5dec2">
+<img width="452" alt="image" src="https://github.com/haroonlone/theTenCorpora/assets/47498442/5e0a46e4-c747-486e-9fde-6858fef46046">
+
 
