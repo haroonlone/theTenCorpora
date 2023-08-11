@@ -20,9 +20,9 @@ Additionally, there was a requirement to allocate special symbols related to the
 So, there was a need to update the API to handle these enhancements and enrich it for the special symbols that would be used in the Qira`āt difference presentation. To achieve this, there was a need to introduce new characters in the existing list of Buckwalter Transliteration. Thus, we listed all symbols, small and capital letters, and their status of being used or free in the Buckwalter Transliteration. Then, all Arabic Unicode letters were listed, and the relevant ones were chosen for consideration. Finally, specific Buckwalter ASCII characters were assigned for the new Unicode handling, and JQuran Java API was updated accordingly. The newly included symbols are listed in the Table below. 
 
   **Table Buckwalter Enhancements Characters**
-
+<p>
 <img width="468" alt="image" src="https://github.com/haroonlone/theTenCorpora/assets/47498442/c428dcf5-1f57-4d29-a826-f8d486f7b2fb">
-
+</p>
 **JQuran Java API Enhancements**
 
 The JQuran API consisted of 13 packages, and the below three packages were updated for the enhancement.
